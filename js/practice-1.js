@@ -378,3 +378,80 @@
 // console.log(getNameLength('Joe'));
 
 // Task #31
+// const courseTopic = "JavaScript essentials";
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+// console.log(courseTopic);
+// console.log(courseTopicLength);
+// console.log(firstElement);
+// console.log(lastElement);
+
+// Task #32
+// function getSubstring(string, length) {
+//   const substring = string.slice(0, length);
+//   return substring;
+// }
+// console.log(getSubstring('Hello world', 3));
+// console.log(getSubstring('Hello world', 5));
+// console.log(getSubstring('Hello world', 8));
+// console.log(getSubstring('Hello world', 11));
+// console.log(getSubstring('Hello world', 0));
+
+// Task #33
+// function formatMessage(message, maxLength) {
+//   let result;
+// if (message.length <= maxLength) {
+//   result = message
+// } else {
+//   result = message.slice(0, maxLength) + '...'
+// }
+//   return result;
+// }
+// console.log(formatMessage('Curabitur ligula sapien', 16));
+// console.log(formatMessage('Curabitur ligula sapien', 23));
+// console.log(formatMessage('Vestibulum facilisis purus nec', 20));
+// console.log(formatMessage('Vestibulum facilisis purus nec', 30));
+// console.log(formatMessage('Nunc sed turpis a felis in nunc fringilla', 15));
+// console.log(formatMessage('Nunc sed turpis a felis in nunc fringilla', 41));
+
+// Task #34
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase();
+//   return normalizedInput;
+// }
+// console.log(normalizeInput('Hello world'));
+// console.log(normalizeInput("This ISN'T a SpaM"));
+// console.log(normalizeInput('Hello world'));
+
+// Task #35
+// function checkForName(fullName, name) {
+//  const result = fullName.includes(name);
+//   return result;
+// }
+// console.log(checkForName('Egor Kolbasov', 'Egor'));
+// console.log(checkForName('Egor Kolbasov', 'egor'));
+// console.log(checkForName('Egor Kolbasov', 'egOr'));
+// console.log(checkForName('Egor Kolbasov', 'Zhenya'));
+// console.log(checkForName('Vadim Nekrasov', 'Vadim'));
+// console.log(checkForName('Vadim Nekrasov', 'vadim'));
+// console.log(checkForName('Vadim Nekrasov', 'Dima'));
+
+// Task #36
+// function checkForSpam(message) {
+//   let result;
+// message = message.toLowerCase()
+//   if (message.includes('spam') || message.includes('sale')) {
+//     result = true
+//   } else {
+//     result = false
+//   }
+//   return result;
+// }
+// console.log(checkForSpam('Latest technology news'));
+// console.log(checkForSpam('JavaScript weekly newsletter'));
+// console.log(checkForSpam('Get best sale offers now!'));
+// console.log(checkForSpam('Amazing SalE, only tonight!'));
+// console.log(checkForSpam('Trust me, this is not a spam message'));
+// console.log(checkForSpam('Get rid of sPaM emails. Our book in on sale'));
+// console.log(checkForSpam('[SPAM] How to earn fast money?'));
