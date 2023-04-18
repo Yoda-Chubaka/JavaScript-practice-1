@@ -227,3 +227,73 @@
 // console.log(isNumberInRange(20, 50, 76));
 
 // Task #22
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType === "pro" || subType === "vip";
+//   return canAccessContent;
+// }
+// console.log(checkIfCanAccessContent('pro'));
+// console.log(checkIfCanAccessContent('starter'));
+// console.log(checkIfCanAccessContent('vip'));
+// console.log(checkIfCanAccessContent('free'));
+
+// Task #23
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange;
+//   return isNotInRange;
+// }
+// console.log(isNumberNotInRange(10, 30, 17));
+// console.log(isNumberNotInRange(10, 30, 5));
+// console.log(isNumberNotInRange(20, 50, 24));
+// console.log(isNumberNotInRange(20, 50, 76));
+
+// Task #24
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+// if (totalSpent >= 50000) {
+//   discount = GOLD_DISCOUNT
+// } else if (totalSpent >= 20000 && totalSpent <= 50000) {
+//   discount = SILVER_DISCOUNT
+// } else if (totalSpent >= 5000 && totalSpent <= 20000) {
+//   discount = BRONZE_DISCOUNT
+// } else {
+//  discount = BASE_DISCOUNT
+// }
+//   return discount;
+// }
+// console.log(getDiscount(137000));
+// console.log(getDiscount(46900));
+// console.log(getDiscount(8250));
+// console.log(getDiscount(1300));
+// console.log(getDiscount(5000));
+// console.log(getDiscount(20000));
+// console.log(getDiscount(50000));
+
+// Task #25
+// function checkStorage(available, ordered) {
+//   let message;
+// message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+// Task #26
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+// message = password === ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!"
+//   return message;
+// }
+// console.log(checkPassword('jqueryismyjam'));
+// console.log(checkPassword('angul4r1sl1f3'));
+// console.log(checkPassword('r3actsux'));
+
+// Task #27
