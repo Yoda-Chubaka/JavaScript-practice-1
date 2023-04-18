@@ -52,3 +52,30 @@
 // sayHi();
 
 // Task #8
+// function add(a, b, c) {
+//   console.log(`Addition result equals ${a+b+c}`);
+// }
+// add(15, 27, 10);
+// add(10, 20, 30);
+// add(5, 10, 15);
+
+// Task #9
+// function add(a, b, c) {
+// return a+b+c;
+// }
+// add(2, 5, 8);
+// console.log(add(15, 27, 10));
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
+
+// Task #10
+// function makeMessage (name, price) {
+//    const message = `You picked ${name}, price per item is ${price} credits`;
+//   return message;
+// };
+// console.log(makeMessage('Radar', 6150));
+// console.log(makeMessage('Scanner', 3500));
+// console.log(makeMessage('Reactor', 8000));
+// console.log(makeMessage('Engine', 4070));
+
+// Task #11
