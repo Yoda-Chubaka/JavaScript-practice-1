@@ -297,3 +297,84 @@
 // console.log(checkPassword('r3actsux'));
 
 // Task #27
+// function getSubscriptionPrice(type) {
+//   let price;
+//  switch (type) {
+//     case "starter":
+//       price = 0;
+//       break;
+//     case "professional":
+//       price = 20;
+//       break;
+//     case "organization":
+//       price = 50;
+//       break;
+//   }
+//   return price;
+// }
+// console.log(getSubscriptionPrice('_stаrter_'));
+// console.log(getSubscriptionPrice('professional'));
+// console.log(getSubscriptionPrice('organization'));
+// console.log(getSubscriptionPrice('starter'));
+
+// Task #28
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//   switch (password) {
+//     case null:
+//     message = "Canceled by user!";
+//     break;
+//     case ADMIN_PASSWORD:
+//       message = "Welcome!"
+//       break;
+//     default:
+//      message = "Access denied, wrong password!"
+//   }
+//   return message;
+// }
+// console.log(checkPassword('mangohackzor'));
+// console.log(checkPassword(null));
+// console.log(checkPassword('polyhax'));
+// console.log(checkPassword('jqueryismyjam'));
+
+// Task #29
+// function getShippingCost(country) {
+//   let message;
+// switch (country) {
+//     case "China":
+//         price = 100;
+//   message = `Shipping to ${country} will cost ${price} credits`
+//   break;
+//   case "Chile":
+//   message = "Shipping to Chile will cost 250 credits"
+// break;
+// case "Australia":
+//   message = "Shipping to Australia will cost 170 credits"
+// break;
+// case "Jamaica":
+//   message = "Shipping to Jamaica will cost 120 credits"
+// break;
+// default:
+//   message = "Sorry, there is no delivery to your country";
+// }
+//   return message;
+// }
+// console.log(getShippingCost('Australia'));
+// console.log(getShippingCost('Germany'));
+// console.log(getShippingCost('China'));
+// console.log(getShippingCost('Chile'));
+// console.log(getShippingCost('Jamaica'));
+// console.log(getShippingCost('Sweden'));
+
+// Task #30
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`;
+//   return message;
+// }
+// console.log(getNameLength('Poly'));
+// console.log(getNameLength('Harambe'));
+// console.log(getNameLength('Billy'));
+// console.log(getNameLength('Joe'));
+
+// Task #31
